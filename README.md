@@ -5,7 +5,7 @@ Thanks for Pavithran -R for this repo.Ive done a few additions here and there.
 
 ## Installation
 - First get the following prepared:
-  - A @BotFather bot token. [Tutorial](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)
+  - @BotFather bot token.
   - Your Telegram user ID. Talk with [this](https://t.me/userinfobot) bot
   - Your Rclone config, you need to encode it to [Base64](https://www.base64encode.org)
   -  This is necessary if you want to keep the rclone config even if the bot restarted.
