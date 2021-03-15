@@ -1,7 +1,5 @@
 # Rclone Herokushell
  Interface Heroku's shell through Telegram, plus Rclone support
-
-This project is a re-branded repository of [HerokuShell-Rclone](https://github.com/hostitor/HerokuShell-Rclone) by `hostitor`.
  
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Pavithran-R/Rclone-HerokuShell/tree/master)
 
@@ -9,9 +7,10 @@ This project is a re-branded repository of [HerokuShell-Rclone](https://github.c
 - First get the following prepared:
   - A @BotFather bot token. [Tutorial](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)
   - Your Telegram user ID. Talk with [this](https://t.me/userinfobot) bot
-  - [OPTIONAL] Your Rclone config, you need to encode it to [Base64](https://www.base64encode.org)
-- Next click the Deploy button above, make sure you have a Heroku account
-- Fill in the text fields with the information you prepared
+  - Your Rclone config, you need to encode it to [Base64](https://www.base64encode.org)
+  -  This is necessary if you want to keep the rclone config even if the bot restarted.
+- Next click the Deploy button
+- Fill in the fields with the information you prepared
 - Press the `Deploy` button
 - Wait for the app to finish deploying
 - Go to the app's dashboard and go onto the 'Resources' tab
